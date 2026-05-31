@@ -16,9 +16,9 @@
 // =============================================================================
 // UPDATE THESE VALUES WITH YOUR ACTUAL CREDENTIALS
 // =============================================================================
-String username = 'your-integration-user@yourorg.com';
-String password = 'YourPassword123';
-String securityToken = 'YourSecurityToken123';
+String username = '[REDACTED]';
+String password = '[REDACTED]';
+String securityToken = '[REDACTED]';
 
 // =============================================================================
 // TEST VARIABLES
@@ -215,9 +215,7 @@ try {
 		System.debug('✓ Got refresh token: ' + authResponse.refreshToken.substring(0, 20) + '...');
 
 		// Test the refresh token
-		SFAuthenticationManager.AuthResponse refreshResponse = SFAuthenticationManager.refreshToken(
-			authResponse.refreshToken
-		);
+		SFAuthenticationManager.AuthResponse refreshResponse = SFAuthenticationManager.refreshToken(authResponse.refreshToken);
 
 		if (refreshResponse.isSuccess) {
 			System.debug('✓ Token refresh SUCCESSFUL');
