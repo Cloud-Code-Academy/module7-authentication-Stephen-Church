@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<RemoteSiteSetting xmlns="https://soap.sforce.com/2006/04/metadata">
+<?xml version="1.0" encoding="UTF-8"?>
+<RemoteSiteSetting xmlns="http://soap.sforce.com/2006/04/metadata">
     <disableProtocolSecurity>false</disableProtocolSecurity>
     <isActive>true</isActive>
-    <url>https://mentorbeta-dev-ed.my.site.com</url>
+    <url>https://orgfarm-ab43aa86c2-dev-ed.develop.my.salesforce-sites.com</url>
 </RemoteSiteSetting>

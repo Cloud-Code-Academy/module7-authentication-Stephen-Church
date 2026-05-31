@@ -11,9 +11,9 @@
 // =============================================================================
 // UPDATE YOUR CREDENTIALS HERE
 // =============================================================================
-String username = 'test@test.com';
-String password = 'test';
-String securityToken = 'test';
+String username = '[REDACTED]';
+String password = '[REDACTED]';
+String securityToken = '[REDACTED]';
 
 // =============================================================================
 // SIMPLE AUTHENTICATION TESTING

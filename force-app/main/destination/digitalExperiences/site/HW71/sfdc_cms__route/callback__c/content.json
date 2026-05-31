@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "callback",
+  "contentBody" : {
+    "activeViewId" : "callback",
+    "configurationTags" : [ ],
+    "pageAccess" : "Public",
+    "routeType" : "custom-callback",
+    "urlPrefix" : "callback"
+  },
+  "urlName" : "callback"
+}
